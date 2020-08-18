@@ -1,0 +1,17 @@
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.exe
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.pdb
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\App.baml
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\MainWindow.baml
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\App.g.cs
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer_MarkupCompile.cache
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.g.resources
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn_Timer.Properties.Resources.resources
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.csproj.GenerateResource.Cache
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.exe
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.pdb
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.exe.manifest
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.application
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\System.Xaml.dll
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.exe.manifest
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x86\Debug\ScreenOn Timer.application

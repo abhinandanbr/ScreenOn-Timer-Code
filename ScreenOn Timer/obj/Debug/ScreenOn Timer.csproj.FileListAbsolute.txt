@@ -1,0 +1,17 @@
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.exe.manifest
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.application
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.exe
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\ScreenOn Timer.pdb
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\Debug\System.Xaml.dll
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\App.baml
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\MainWindow.baml
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\App.g.cs
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\MainWindow.g.cs
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer_MarkupCompile.cache
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.g.resources
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn_Timer.Properties.Resources.resources
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.csproj.GenerateResource.Cache
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.exe.manifest
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.application
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.exe
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\Debug\ScreenOn Timer.pdb

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ScreenOn Timer.exe" version="1.3.0.5" publicKeyToken="506e78e90c088400" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="timer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ScreenOn Timer" version="1.3.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="ScreenOn Timer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScreenOn Timer.exe" size="70144">
+      <assemblyIdentity name="ScreenOn Timer" version="1.3.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Rx30PIF+PrJqf/dgXeSb5MVLsp4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="timer.ico" size="22473">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>C02DcPQ91wTmFC4nD9ExUcZqoPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Abhi-Laptop\AbhinandanBR" issuerKeyHash="b4386ff44a2846a619777fe63572910b89fd6272" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>J4+T7uJP4i/zpZ2UOgrj/o7f0no=</DigestValue></Reference></SignedInfo><SignatureValue>G+R7NQvLnJBWMuYI2oqPlA36SMwX0tLVh0Fs13G3QSey8ypPajw1HcYltMU2MCqtaQ15R8rP48zSOb45ITyDMT509qbj761q8g/Po80PUlJ8191ZN5ENexIf9hCGfWinY05jGMPQkR8hRw0FOnB46pHd17Hlw9j0jxPqYpUUVSI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pCnPNjkLDgYGIP6X4utCkP4uBfWTvvieV6sVRzN4dWH9YOe+svLmiIrlMnFVmZUHoO9kg7+w2y/bwa+WZ6D+v/gs9s+sjugVxLx3aanBRmIJ9BQdZUPc0xaryX5kkfuGb23Fnk09WK1g2lPrK1yL1MRN9/fgq4KL96RsytTv49M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ad2df8efee30a3a949da5f32fe24fe2ee938f27" Description="" Url=""><as:assemblyIdentity name="ScreenOn Timer.exe" version="1.3.0.5" publicKeyToken="506e78e90c088400" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Abhi-Laptop\AbhinandanBR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>alegCh52z5WtS6HQDhBHo4+ydnw=</DigestValue></Reference></SignedInfo><SignatureValue>cf9W5Tuw6Cx5kGqgjCkxASdsOYDkOjtA146PCcGmkLmsDSgL3G6GD/i5yQZ/94sKeKupQks3PxjI/iqesSwI9almLJ9eeH6IUGQ27HuXr0CjJWNAN9N7b7JCWmdJqYhkFdxOjKxdcsvuPdNpVI801TrBkzwy0gyktMdJ0aT8KFc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pCnPNjkLDgYGIP6X4utCkP4uBfWTvvieV6sVRzN4dWH9YOe+svLmiIrlMnFVmZUHoO9kg7+w2y/bwa+WZ6D+v/gs9s+sjugVxLx3aanBRmIJ9BQdZUPc0xaryX5kkfuGb23Fnk09WK1g2lPrK1yL1MRN9/fgq4KL96RsytTv49M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQbURRwgiybYVPrQ6T9QJ1YzANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAAQQBiAGgAaQAtAEwAYQBwAHQAbwBwAFwAQQBiAGgAaQBuAGEAbgBkAGEAbgBCAFIwHhcNMjAwODE3MTkwOTMwWhcNMjEwODE4MDEwOTMwWjA7MTkwNwYDVQQDHjAAQQBiAGgAaQAtAEwAYQBwAHQAbwBwAFwAQQBiAGgAaQBuAGEAbgBkAGEAbgBCAFIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKQpzzY5Cw4GBiD+l+LrQpD+LgX1k774nlerFUczeHVh/WDnvrLy5oiK5TJxVZmVB6DvZIO/sNsv28Gvlmeg/r/4LPbPrI7oFcS8d2mpwUZiCfQUHWVD3NMWq8l+ZJH7hm9txZ5NPVitYNpT6ytci9TETff34KuCi/ekbMrU7+PTAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAHZTcfdrjgI9XS7/gmqwUMqhmU+lW+N1dpe7r8aKgY1hQs927FjlSR0KsXI/JWFqz/qnh6M6UoMi1a93zsSp9C18jYZrP7a13C232MsKadeTrIh430Nc0zrf9XaiazKihbOTroE7GrYJY1TFK0sJVYgYzuyNqeYXdPKM6umDFs/I=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
