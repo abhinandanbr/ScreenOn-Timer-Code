@@ -19,8 +19,13 @@ namespace ScreenOn_Timer
         {
             if (SingleInstance<App>.InitializeAsFirstInstance(Unique))
             {
-                ScreenOn_Timer.App app = new ScreenOn_Timer.App();
-                app.InitializeComponent();
+            Retry:ScreenOn_Timer.App app = new ScreenOn_Timer.App();
+                try
+                {
+                    app.InitializeComponent();
+                }catch(Exception e){
+                    goto Retry;
+                }
                 app.Run();
                 // Allow single instance code to perform cleanup operations
                 SingleInstance<App>.Cleanup();
