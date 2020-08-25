@@ -44,15 +44,26 @@ namespace ScreenOn_Timer
 
         public MainWindow()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }catch(Exception e){
+                System.Windows.MessageBox.Show("execept","Message");
+            }
 
-            //Init UI, notify Icon, Keyboard
-            n_init = new init_Common(this);
             initAll();
         }
 
         private void initAll()
         {
+            //Initialize UI variables
+            startTime = DateTime.Now;
+            timerTextUI = timerTxtDisplayUI;
+            mainWindowUI = mainTimerWindowUI;
+
+            //Init UI, notify Icon, Keyboard
+            n_init = new init_Common(this);
+
             n_init.init_window(this, taskBarHeight);
 
             //Init Hook
@@ -61,18 +72,15 @@ namespace ScreenOn_Timer
             //Set Autostart
             n_init.init_setAutoStartup();
 
-            //Init Thread and run
+            //Init Thread 
             mousePointerThread = new Thread(keyChk_thread);
             mousePointerThread.SetApartmentState(ApartmentState.STA);
-            mousePointerThread.Start();
-
-            //Initialize time
-            startTime = DateTime.Now;
-            timerTextUI = timerTxtDisplayUI;
-            mainWindowUI = mainTimerWindowUI;
 
             //Setup notification Tray Icon
-            n_init.init_notifyTray(mousePointerThread,keyCheckHook);
+            n_init.init_notifyTray(mousePointerThread,keyCheckHook); //issue
+
+            //Run Thread
+            mousePointerThread.Start();
 
         }
 

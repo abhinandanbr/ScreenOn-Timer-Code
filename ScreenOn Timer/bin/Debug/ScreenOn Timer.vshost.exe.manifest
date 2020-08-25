@@ -4,7 +4,7 @@
   <description asmv2:iconFile="timer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ScreenOn Timer" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ScreenOn Timer" version="1.4.2.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="ScreenOn Timer.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScreenOn Timer.exe" size="72192">
-      <assemblyIdentity name="ScreenOn Timer" version="1.3.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScreenOn Timer.exe" size="72704">
+      <assemblyIdentity name="ScreenOn Timer" version="1.4.2.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>zjaMP9zU+RbIp0fjzJGK1fdobJk=</dsig:DigestValue>
+        <dsig:DigestValue>jweUVciuR73iF0iG6Rf45OtUb1U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

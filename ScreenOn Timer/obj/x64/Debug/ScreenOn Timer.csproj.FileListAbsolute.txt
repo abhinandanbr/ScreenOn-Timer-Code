@@ -3,10 +3,9 @@ C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenO
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\x64\Debug\ScreenOn Timer.exe
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\x64\Debug\ScreenOn Timer.pdb
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\bin\x64\Debug\System.Xaml.dll
-C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\App.baml
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\MainWindow.baml
-C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\App.g.cs
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\MainWindow.g.cs
+C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\App.g.cs
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\ScreenOn Timer_MarkupCompile.cache
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\ScreenOn Timer.g.resources
 C:\Users\AbhinandanBR\Documents\VisualStudio2010\Projects\ScreenOn Timer\ScreenOn Timer\obj\x64\Debug\ScreenOn_Timer.Properties.Resources.resources

@@ -7,6 +7,7 @@ using Microsoft.Win32;
 using System.Threading;
 using System.Windows.Forms;
 using Utilities;
+using System.IO;
 
 namespace ScreenOn_Timer
 {
@@ -41,7 +42,7 @@ namespace ScreenOn_Timer
             RegistryKey rk = Registry.CurrentUser.OpenSubKey
                 ("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
             //System.AppDomain.CurrentDomain.BaseDirectory;
-            rk.SetValue(System.Reflection.Assembly.GetEntryAssembly().ManifestModule.Name,  System.Windows.Forms.Application.ExecutablePath);
+            rk.SetValue(System.Reflection.Assembly.GetEntryAssembly().ManifestModule.Name.ToString(),  System.Windows.Forms.Application.ExecutablePath.ToString());
 
         }
 
@@ -64,16 +65,26 @@ namespace ScreenOn_Timer
         {
             keyCheckHook_temp = keyCheckHookPass;
             mousePointerThread = thread;
+
+            //Init notify Icon and show
             notifyIcon = new System.Windows.Forms.NotifyIcon();
+
+            System.Windows.Forms.NotifyIcon icon = new System.Windows.Forms.NotifyIcon();
+            Stream iconStream = System.Windows.Application.GetResourceStream(new Uri("pack://application:,,,/ScreenOn Timer;component/timer.ico")).Stream;
+            icon.Icon = new System.Drawing.Icon(iconStream);
+            
+            notifyIcon.Icon = icon.Icon;
+
+            iconStream.Dispose();
+
             //notifyIcon.Click += new System.EventHandler(this.notifyIcon_Click);
             notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
-            notifyIcon.Icon =
-                System.Drawing.Icon.ExtractAssociatedIcon(System.Reflection.Assembly.GetEntryAssembly().ManifestModule.Name);
-            notifyIcon.Visible = true;
             notifyIcon.MouseMove += new System.Windows.Forms.MouseEventHandler(this.notifyIcon_MouseMove);
             notifyIcon.ShowBalloonTip(2000, "ScreenOnTimer", "Usage Start", ToolTipIcon.Info);
             notifyIcon.BalloonTipShown += new EventHandler(notifyIcon_BalloonTipShown);
             notifyIcon.BalloonTipClosed += new EventHandler(notifyIcon_BalloonTipClosed);
+            notifyIcon.Visible = true;
+ 
             notifyTray_ContextMenu();
             notifyIcon.ContextMenuStrip = notifyContext1;
         }

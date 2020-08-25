@@ -4,7 +4,7 @@
         Name="mainTimerWindowUI"
         Title="ScreenOn Timer" Height="50" Width="200" LostKeyboardFocus="Window_PreviewLostKeyboardFocus"
         ResizeMode="CanResizeWithGrip" WindowStyle="None" AllowsTransparency="True"
-        Opacity="0.9" 
+        Opacity="0.8" 
         WindowStartupLocation="Manual" ShowInTaskbar="False" Background="DarkSlateGray">
 
     <Grid ClipToBounds="True">
