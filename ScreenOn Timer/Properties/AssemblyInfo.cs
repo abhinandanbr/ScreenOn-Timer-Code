@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("ScreenOn Timer")]
 [assembly: AssemblyDescription("Displays active screen usage time")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Abi Studios")]
+[assembly: AssemblyCompany("Abi NexTech Studios")]
 [assembly: AssemblyProduct("ScreenOn Timer")]
-[assembly: AssemblyCopyright("Copyright © Abi Studios")]
+[assembly: AssemblyCopyright("Copyright © Abi NexTech Studios")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
