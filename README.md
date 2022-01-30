@@ -1,6 +1,10 @@
 # Windows-Screen-On-time
 The app shows the current active screen usage for any windows OS
 
+# Setup
+https://github.com/abhinandanbr/Windows-Screen-On-time
+
+# Updates
 New in v1.4.2:
 * Fix for autostart on boot
 
