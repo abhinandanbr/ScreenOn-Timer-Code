@@ -30,3 +30,9 @@ Current version: v1.4.2
 Note:
 * It currently checks for activity periodically. No settings to change this currently.
 * The timer is reset after every boot.
+
+<h1 align="center">Support</h1>
+<h2 align="center">
+
+  [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/abhinandanbr/)
+</h2>
